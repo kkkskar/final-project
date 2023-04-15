@@ -1,0 +1,183 @@
+@media (max-width: 1366px) {
+
+    .section__container {
+        max-width: 1336px;
+    }
+}
+
+@media (max-width: 600px) {
+    .section__container {
+        max-width: 600px;
+    }
+    .container {
+        max-width: 600px;
+    }
+    .section__wrapper{
+        display: block;
+    }
+    .team {
+        padding: 70px 0 70px;
+    }
+    .team__wrapper {
+        flex-wrap: wrap;
+    }
+    .team__wrapper .card:nth-child(3){
+        margin-top: 50px;
+    }
+    .team__wrapper .card:nth-child(4){
+        margin-top: 50px;
+    }
+    .card{
+        max-width: fit-content;
+    }
+    .team__follow{
+        padding: 15px 10px;
+    }
+    .team__hand{
+        width: 100px;
+        margin-top: 60px;
+    }
+    .team__follow-title{
+        font-size: 20px;
+    }
+    .title__desc{
+        font-size: 18px;
+        max-width: 250px;
+      
+    }
+    .team__follow-btn{
+        width: 201px;
+        height: 65px;
+        font-size: 13px;
+        margin-top: 60px;
+    }
+   .section__wrapper{
+        grid-template-columns: 1fr;
+    }
+    .section__blog{
+        height: 511px;
+    }
+    .footer__wrapper{
+        grid-template-columns: 1fr;
+    }
+    .footer__about{
+        margin: auto;
+    }
+    .footer__left{
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width:390px){
+    .section__container {
+        max-width: 390px;
+    }
+    .container {
+        max-width: 390px;
+    }
+    .team__title{
+        font-size: 20px;
+    }
+    .card{
+        max-width: 43%;
+    }
+    .team__dude{
+        font-size: 15px;
+    }
+    .follow__titile {
+        font-size: 20px;
+    }
+    .team__hand{
+        width: 40%;
+        margin-top: 10px;
+    }
+    .team__follow-title{
+        font-size: 15px;
+    }
+    
+   .title__desc {
+    font-size: 10px;
+    max-width: 150pxpx;
+   }
+   .team__follow-btn{
+    width: 100px;
+    height: 50px;
+    font-size: 9px;
+    border-radius: 30px;
+    margin-top: 30px;
+   }
+   .section__follow{
+    padding: 10px;
+   }
+   .follow__subtitle {
+    font-size: 15px;
+   }
+    .follow__inp{
+        width: 250px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    ::placeholder{
+        font-size: smaller;
+    }
+    .follow__btn{
+        font-size: 11px;
+        width: 120px;
+        height: 40px;
+        margin-left: 0;
+    }
+    .section__blog{
+        padding: 10px;
+        position: relative;
+        height: 200px;
+    }
+    .blog__title{
+        font-size: 20px;
+        top: 50px;
+        left: 10px;
+    }
+    .blog__btn{
+        font-size: 11px;
+        width: 120px;
+        height: 40px;
+        top: 100px;
+        left: 10px;
+    }
+    .footer{
+        padding: 10px;
+    }
+    .footer__logo svg{
+        width: 40%;
+    }
+    .footer__desc{
+        font-size: 15px;
+    }
+    .footer__page {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .footer__page svg{
+        margin: 10px auto;
+    }
+    .footer__title{
+        font-size: 12px;
+    }
+    .footer__nav{
+        font-size: 9px;
+    }
+    .footer__adress-title{
+        font-size: 12px;
+    }
+    .footer__contact-left{
+        font-size: 9px;
+    }
+    .footer__left{
+        padding: 10px;
+    }
+    .design{
+        font-size: smaller;
+    }
+}

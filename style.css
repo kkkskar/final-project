@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    color: transparent;
+}
+
+input {
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.section__container{
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 0 15px; */
+}
+/* TEAM  */
+.team {
+    background: #F1EEEC;
+    padding: 141px 0 168px;
+}
+
+.team__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+
+.team__title {
+    font-family: 'Shippori Mincho', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #2E4049;
+}
+
+.card {
+    max-width: 23%;
+    background-color: inherit;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.team__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.team__dude {
+    font-family: 'Shippori Mincho', sans-serif;
+    text-align: center;
+    margin: 21px 0 21px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+    color: #2E4049;
+}
+
+.team__img img {
+    width: 100%;
+    height: 100%;
+}
+
+address {
+    text-align: center;
+}
+
+
+/* TEAM FOLLOW */
+.team__hand {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.team__follow {
+    padding: 64px 17px;
+    background: #77D7D3;
+}
+
+.team__follow-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 120%;
+    color: #2E4049;
+    margin: 15px 0 17px;
+    text-align: center;
+}
+
+.title__desc {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #2E4049;
+    text-align: center;
+}
+
+.team__follow-btn {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: block;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 201px;
+    height: 65px;
+    background: #2E4049;
+    border-radius: 34px;
+}
+
+/* FOLLOW  */
+.section__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section__follow {
+    background: #FF6D6D;
+    padding: 74px 0 113px 108px;
+}
+
+.follow__titile {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.follow__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    max-width: 510px;
+}
+
+.follow__inp {
+    width: 414px;
+    height: 65px;
+    left: 0px;
+    top: 0.5px;
+    background: #FFFFFF;
+    border-radius: 34px;
+    margin: 15px 0 30px;
+}
+
+.follow__inp {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #727272;
+    padding-left: 26px;
+}
+
+.follow__btn {
+    width: 218px;
+    height: 66px;
+    background: #2E4049;
+    border-radius: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+/* BLOG  */
+
+.section__blog {
+    background-image: url(./img/blog-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 74px 0 113px 108px;
+    position: relative;
+}
+
+.section__blog::before {
+    position: absolute;
+    content: "";
+    background: rgba(119, 215, 211, 0.93);
+    opacity: 3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.blog__title {
+    position: absolute;
+    font-family: 'Shippori Mincho', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    color: #2E4049;
+    margin-bottom: 35px;
+    max-width: 528px;
+    top: 81px;
+    left: 108;
+}
+
+.blog__btn {
+    position: absolute;
+    width: 208px;
+    height: 66px;
+    background: #2E4049;
+    border-radius: 34px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    top: 212px;
+    left: 108;
+}
+
+/* FOOTER  */
+.footer {
+    background: #2E4049;
+    padding: 112px 0 154px;
+}
+
+.footer__wrapper {
+    display: grid;
+    grid-template-columns: 363px 802px;
+    column-gap: 32px;
+}
+
+.footer__about {
+    max-width: 363px;
+}
+
+.footer__desc {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin: 24px 0 30px;
+}
+
+.footer__adress {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.footer__page {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 21px;
+    background: #384C56;
+}
+
+.footer__left {
+    padding: 56px 49px;
+    background: #384C56;
+    display: flex;
+    justify-content: space-between;
+    max-width: 802px;
+}
+
+.footer__nav {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 186%;
+    color: #FFFFFF;
+}
+
+.footer__title {
+    font-family: 'Shippori Mincho', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer_get__involted li:nth-child(3n){
+    color: red;
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer__adress-title{
+    font-family: 'Shippori Mincho', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.footer__contact-left {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 186%;
+    color: #FFFFFF;
+    text-align: start;
+    max-width: 250px;
+}
+div .footer__contact-left:nth-child(2){
+    margin-bottom: 70px;
+}
+
+/* design  */
+.design {
+    border: 1px solid #465A64;
+    background: #2E4049;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.52%;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0 20px;
+}
